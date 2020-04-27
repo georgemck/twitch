@@ -1,0 +1,27 @@
+<div id="twitch-embed"></div>
+
+    <!-- Load the Twitch embed script -->
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 854,
+        height: 480,
+        channel: "georgemck408",
+        // only needed if your site is also embedded on embed.example.com and othersite.example.com 
+        parent: ["3dvu.co", "blockget.io","georgemckinney.com","zukinimobile.com"]
+      });
+    </script>
+<br /><br />
+<a href="https://www.georgemckinney.com/twitch" target="_blank" rel="noopener noreferrer">simple Twitch page</a>
+<!-- https://dev.twitch.tv/docs/embed/everything -->
+<!-- https://dev.twitch.tv/docs/api/ -->
+<!-- https://discuss.dev.twitch.tv/t/requiring-oauth-for-helix-twitch-api-endpoints/23916 --> 
+<!-- https://discuss.dev.twitch.tv/t/cors-wrong-access-control-allow-origin-header/21714/9 -->
+
+
+<script>
+   console.log("https://dev.twitch.tv/docs/embed/everything");
+</script>
+
