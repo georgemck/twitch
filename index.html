@@ -22,8 +22,15 @@
 <!-- https://discuss.dev.twitch.tv/t/cors-wrong-access-control-allow-origin-header/21714/9 -->
 
 
+
+<div><button onclick="startPattern()">Play pattern</button></div>
+    
 <script>
    console.log("https://dev.twitch.tv/docs/embed/everything");
+   function startPattern() {
+     navigator.vibrate([500, 250, 500, 250, 500, 250, 500, 250, 500, 250, 500]);
+   }
+    
    navigator.vibrate([100,30,100,30,100,30,200,30,200,30,200,30,100,30,100,30,100]);
 </script>
 </body></html>
