@@ -23,7 +23,7 @@
 
 
 
-<div><button onclick="startPattern()">Play pattern</button></div>
+<div><button id="shake" onclick="startPattern()">Play pattern</button></div>
     
 <script>
    console.log("https://dev.twitch.tv/docs/embed/everything");
@@ -31,6 +31,10 @@
      navigator.vibrate([500, 250, 500, 250, 500, 250, 500, 250, 500, 250, 500]);
    }
     
-   navigator.vibrate([100,30,100,30,100,30,200,30,200,30,200,30,100,30,100,30,100]);
+    document.addEventListener('DOMContentLoaded', (event) => {
+      document.getElementById("shake").click;  
+         navigator.vibrate([100,30,100,30,100,30,200,30,200,30,200,30,100,30,100,30,100]);
+    })
+    
 </script>
 </body></html>
